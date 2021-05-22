@@ -1,0 +1,15 @@
+{
+  "name": "build-with-ssg",
+  "version": "1.0.0",
+  "description": "Jamstack with SSG",
+  "main": "vibe.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "author": "James Pilkington",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
